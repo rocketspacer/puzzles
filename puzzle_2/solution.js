@@ -4,12 +4,12 @@ module.exports = function (array) {
   // the sum of A[x:y] = S[y]-S[x].
   const S = [0];
   for (let i = 1; i < array.length; i += 1) {
-    S[i] = S[i - 1] + array[i];
+    S[i] = S[i - 1] + array[i - 1];
   }
 
   let count = 0;
   const hash = {};
-  for (let i = 0; i < array.length; i += 1) {
+  for (let i = 0; i < S.length; i += 1) {
     if (hash[S[i]] !== undefined) hash[S[i]] += 1;
     else hash[S[i]] = 0;
 
