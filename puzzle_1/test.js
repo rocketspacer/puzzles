@@ -26,7 +26,7 @@ const test_data = [
 //----------------------------------------------------------
 // Test
 describe('Solution #1', function () {
-  const solve = require('../solution/solution_1');
+  const solve = require('./solution_1');
 
   test_data.forEach((test, index) => {
     it(`TC#${index}: should pass`, function () {
@@ -37,7 +37,7 @@ describe('Solution #1', function () {
 });
 
 describe('Solution #2', function () {
-  const solve = require('../solution/solution_2');
+  const solve = require('./solution_2');
 
   test_data.forEach((test, index) => {
     it(`TC#${index}: should pass`, function () {
