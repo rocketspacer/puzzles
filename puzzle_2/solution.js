@@ -1,8 +1,8 @@
 module.exports = function (array) {
 
-  // let S[k] be the sum of the first k elements of A, S[0]=0 and S[i+1]=S[i]+A[i]
+  // let S[k] be the sum of the first k elements of A, S[0]=A[0] and S[i+1]=S[i]+A[i]
   // the sum of A[x:y] = S[y]-S[x].
-  const S = [0];
+  const S = [array[0]];
   for (let i = 1; i < array.length; i += 1) {
     S[i] = S[i - 1] + array[i];
   }
