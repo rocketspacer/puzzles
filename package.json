@@ -1,0 +1,31 @@
+{
+  "name": "puzzles",
+  "version": "1.0.0",
+  "description": "Collection of my solved puzzles",
+  "main": "index.js",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.19.0",
+    "mocha": "^3.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb-base": "^11.1.3",
+    "eslint-plugin-import": "^2.2.0",
+    "mocha": "^3.3.0"
+  },
+  "scripts": {
+    "test": "mocha",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rocketspacer/puzzles.git"
+  },
+  "author": "nmtuan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rocketspacer/puzzles/issues"
+  },
+  "homepage": "https://github.com/rocketspacer/puzzles#readme"
+}
