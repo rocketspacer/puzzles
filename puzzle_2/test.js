@@ -16,6 +16,10 @@ const test_data = [
   {
     input: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
     result: 55
+  },
+  {
+    input: [3, -3, 0, 0, 0, 0],
+    result: 15
   }
 ];
 

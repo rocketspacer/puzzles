@@ -14,6 +14,7 @@ module.exports = {
         "camelcase": 0,
         "func-names": 0,
         "global-require": 0,
-        "prefer-arrow-callback": 0
+        "prefer-arrow-callback": 0,
+        "guard-for-in": 0
     }
 };
