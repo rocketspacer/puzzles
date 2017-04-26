@@ -11,21 +11,21 @@ const test_data = [
   },
   {
     input: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-    result: 45
+    result: 55
   },
   {
     input: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-    result: 45
+    result: 55
   }
 ];
 
 //----------------------------------------------------------
 // Test
-describe('Solution #1', function () {
+describe('Solution', function () {
   const solve = require('./solution');
 
   test_data.forEach((test, index) => {
-    it(`TC#${index}: should pass`, function () {
+    it(`TC#${index + 1}: should pass`, function () {
       chai.expect(solve(test.input)).equals(test.result);
     });
   });
