@@ -8,6 +8,10 @@ const test_data = [
   {
     input: [1, 4, 5, 100, 10],
     result: 290
+  },
+  {
+    input: [1, 2, 100],
+    result: 99 + 98
   }
 ];
 
